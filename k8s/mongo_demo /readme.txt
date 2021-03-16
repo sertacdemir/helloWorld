@@ -11,6 +11,8 @@ How to create basic mongo environment?
 3. Create mongo-express to manage db(mongo-express.yaml)
   3.1. Create config map to store mongo db address(mongo-configmap.yaml). Username and pass is already in secret and will be used from there
   3.2. Crete a external service with LoadBalancer type and node port
-  3.3. For minikube to have external ip execute: minikube service mongo-express-service. It will create internal and external address that can be seen from the command output 
+  3.3. For minikube to have external ip execute: minikube service mongo-express-service. It will create internal and external address that can be seen from the command output
+    3.3.1 Local access through: http://127.0.0.1:52019
+
 
 Helpful links: https://www.bogotobogo.com/DevOps/Docker/Docker_Kubernetes_MongoDB_MongoExpress.php
