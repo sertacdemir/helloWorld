@@ -13,6 +13,9 @@ How to create basic mongo environment?
   3.2. Crete a external service with LoadBalancer type and node port
   3.3. For minikube to have external ip execute: minikube service mongo-express-service. It will create internal and external address that can be seen from the command output
     3.3.1 Local access through: http://127.0.0.1:52019
+4. Create persistant volume for mongo date to be persistent(mongo_pv.yaml). This step should be executed before the second environment
+  4.1. For this exercise local store will be used.
+  4.2. Normally I should use persistent but I will use statefull set as I will not scale up.
 
 
 Helpful links: https://www.bogotobogo.com/DevOps/Docker/Docker_Kubernetes_MongoDB_MongoExpress.php
