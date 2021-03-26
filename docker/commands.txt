@@ -1,0 +1,15 @@
+- docker pull image_name = downloads the image
+- docker run image_name = download the image if it is necessary and create container to run the image.
+  - docker run image:<version> = download the specific version of the image
+  - docker run -p6000:6379 redis = this is a command to run redis with open port 6000 for host.
+  - --name paremeter  = this parameter to give name to container. Otherwise it will have a default name.
+- docker run -d = run the image in detached run so it is not depended on console.
+- docker images = shown the downloaded images
+- docker ps: shows the running container.
+  - docker ps -a = shows all container even not running one
+- docker stop container_id = it will stop the container
+- docker start container_id =  it will start the container
+- docker logs container_id(or name of the container) = it will show the logs of the container
+ - docker logs -f container_id = it will show the logs of the container continuously.
+- docker exec -it container_id /bin/bash = it will interactively execute /bin/bash to access the terminal to container os
+- docker rm container_id = this command is to remove unnecessary containers permanently
