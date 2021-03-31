@@ -10,6 +10,10 @@
 - docker stop container_id = it will stop the container
 - docker start container_id =  it will start the container
 - docker logs container_id(or name of the container) = it will show the logs of the container
- - docker logs -f container_id = it will show the logs of the container continuously.
+ - docker logs -f container_id = it will show the logs of the container continuously. Stream
 - docker exec -it container_id /bin/bash = it will interactively execute /bin/bash to access the terminal to container os
 - docker rm container_id = this command is to remove unnecessary containers permanently
+- docker network ls = shows the generated networks
+  - docker network create mongo-network = create network named 'mongo-network'
+-docker compose -f yaml_file up = this component executes the yaml file, create and start the containers.
+ - docker compose -f yaml_file down = this command stops and deletes the containers in the yaml file
