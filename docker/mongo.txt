@@ -20,3 +20,7 @@
   3.1. To avoid writing this commands we can also use docket compose with yaml files
   3.2. Docker compose takes care of creating network
   3.3. docker compose -f mongo-compose.yaml up
+  3.4. in order not to lose data use persistence
+    3.4.1. named volume will be used in compose file.
+  3.5 The path of the named volume is: /var/lib/docker/volumes(hidden in linux machine in mac)
+    3.5.1 command to find: screen ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty

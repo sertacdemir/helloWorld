@@ -3,7 +3,8 @@
   - docker run image:<version> = download the specific version of the image
   - docker run -p6000:6379 redis = this is a command to run redis with open port 6000 for host.
   - --name paremeter  = this parameter to give name to container. Otherwise it will have a default name.
-- docker run -d = run the image in detached run so it is not depended on console.
+  - docker run -d = run the image in detached run so it is not depended on console.
+  - docker run -d -p3000:3000 my-app:1.0 = example custom app run 
 - docker images = shown the downloaded images
 - docker ps: shows the running container.
   - docker ps -a = shows all container even not running one
@@ -11,9 +12,12 @@
 - docker start container_id =  it will start the container
 - docker logs container_id(or name of the container) = it will show the logs of the container
  - docker logs -f container_id = it will show the logs of the container continuously. Stream
-- docker exec -it container_id /bin/bash = it will interactively execute /bin/bash to access the terminal to container os
+- docker exec -it container_id /bin/bash = it will interactively execute /bin/bash(or /bin/sh) to access the terminal to container os
 - docker rm container_id = this command is to remove unnecessary containers permanently
 - docker network ls = shows the generated networks
   - docker network create mongo-network = create network named 'mongo-network'
 -docker compose -f yaml_file up = this component executes the yaml file, create and start the containers.
+ - docker-compose -f mongo-compose.yaml up -d: start containers in detached mode
  - docker compose -f yaml_file down = this command stops and deletes the containers in the yaml file
+- docker build -t my-app:1.0 . = build an image with name myapp and tag 1.0. "." is the Dockerfile location.
+-docker rmi image_id = delete the image with if image_id
