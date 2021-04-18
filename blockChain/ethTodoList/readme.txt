@@ -26,3 +26,4 @@
       10.3.3.1 Check the address: todoList.address
       10.3.3.2 Check the taskCount that is creates as state variable: todoList.taskCount() //should be zero
       10.3.3.3 examle: taskCount = await todoList.taskCount() and than check taskCount.toNumber()
+11.
