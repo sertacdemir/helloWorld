@@ -69,7 +69,7 @@ App = {
       $newTaskTemplate.find('input')
                       .prop('name', taskId)
                       .prop('checked', taskCompleted)
-                      //.on('click',App.toggleCompleted);
+                      .on('click',App.toggleCompleted);
       if(taskCompleted) {
         $('#completedTaskList').append($newTaskTemplate);
       } else {
@@ -82,10 +82,18 @@ App = {
   },
 
   createTask:async() => {
-    App.setLoading(true)
+    App.setLoading(true);
     const content = $('#newTask').val();
     const fromVal = App.account[0];
     await App.todoList.createTask(content,{from: fromVal});
+    window.location.reload();
+  },
+
+  toggleCompleted:async(e) => {
+    App.setLoading(true);
+    const taskId = e.target.name;
+    const fromVal = App.account[0];
+    await App.todoList.toggleCompleted(taskId,{from: fromVal});
     window.location.reload();
   },
 
