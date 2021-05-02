@@ -42,3 +42,8 @@
   14.1. change the port of the local network
   14.2. import the account with private key
   14.3. After the configuration we should see connected in refreshing the page
+15. After restart of computer
+  15.1. run the command truffle migrate --reset to reset the smart contracts
+  15.2. Because I have used quick start I regenerate ganage wallet and add the key again
+  15.3. rerun the app npm run dev
+  15.4. From the chrome metatask add again the account and manually reconnect the web site and connected icon was there
