@@ -1,0 +1,129 @@
+2021-06-06 08:16:57 [main] INFO  c.s.d.CarChargingSessionApplication - Application is starting..
+2021-06-06 08:16:58 [main] INFO  c.s.d.CarChargingSessionApplication - Starting CarChargingSessionApplication using Java 1.8.0_281 on Sertacs-MacBook-Pro.local with PID 39435 (/Users/sertacdemir/Desktop/code/workspace-spring-tool-suite/car-charging-session/target/classes started by sertacdemir in /Users/sertacdemir/Desktop/code/workspace-spring-tool-suite/car-charging-session)
+2021-06-06 08:16:58 [main] INFO  c.s.d.CarChargingSessionApplication - No active profile set, falling back to default profiles: default
+2021-06-06 08:17:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2021-06-06 08:17:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2021-06-06 08:17:00 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-06 08:17:00 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 08:17:00 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-06 08:17:00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1439 ms
+2021-06-06 08:17:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2021-06-06 08:17:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2021-06-06 08:17:01 [main] INFO  c.s.d.CarChargingSessionApplication - Started CarChargingSessionApplication in 2.907 seconds (JVM running for 3.559)
+2021-06-06 08:17:01 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2021-06-06 08:17:01 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 08:27:09 [main] INFO  c.s.d.CarChargingSessionApplication - Application is starting..
+2021-06-06 08:27:10 [main] INFO  c.s.d.CarChargingSessionApplication - Starting CarChargingSessionApplication using Java 1.8.0_281 on Sertacs-MacBook-Pro.local with PID 39546 (/Users/sertacdemir/Desktop/code/workspace-spring-tool-suite/car-charging-session/target/classes started by sertacdemir in /Users/sertacdemir/Desktop/code/workspace-spring-tool-suite/car-charging-session)
+2021-06-06 08:27:10 [main] INFO  c.s.d.CarChargingSessionApplication - No active profile set, falling back to default profiles: default
+2021-06-06 08:27:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2021-06-06 08:27:12 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2021-06-06 08:27:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-06 08:27:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 08:27:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-06 08:27:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1597 ms
+2021-06-06 08:27:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2021-06-06 08:27:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2021-06-06 08:27:13 [main] INFO  c.s.d.CarChargingSessionApplication - Started CarChargingSessionApplication in 3.275 seconds (JVM running for 3.94)
+2021-06-06 08:27:13 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2021-06-06 08:27:13 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 08:27:20 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 08:27:20 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-06 08:27:20 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-06-06 08:27:20 [http-nio-8082-exec-2] INFO  c.s.d.c.c.s.CarChargingSessionService - Get all charging entitties request is received.
+2021-06-06 08:27:24 [http-nio-8082-exec-3] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 08:27:24 [http-nio-8082-exec-3] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved!
+2021-06-06 08:27:27 [http-nio-8082-exec-4] INFO  c.s.d.c.c.s.CarChargingSessionService - Stop charging entity request is received.
+2021-06-06 08:27:27 [http-nio-8082-exec-4] INFO  c.s.d.c.c.s.CarChargingSessionService - No charging station is found with id: 8dd01abf-1cbe-4bde-a0d1-c2d13f8eac59
+2021-06-06 08:27:45 [http-nio-8082-exec-5] INFO  c.s.d.c.c.s.CarChargingSessionService - Stop charging entity request is received.
+2021-06-06 08:27:45 [http-nio-8082-exec-5] INFO  c.s.d.c.c.s.CarChargingSessionService - Charging entity with id: 388fd2e8-6bdc-40fd-9a51-644d5ccc13b8 is stopped successfully!
+2021-06-06 08:27:50 [http-nio-8082-exec-6] INFO  c.s.d.c.c.s.CarChargingSessionService - Retrieve summary request is received.
+2021-06-06 08:27:50 [http-nio-8082-exec-6] INFO  c.s.d.c.c.s.CarChargingSessionService - Summory of the charging session is calculated! 
+2021-06-06 08:27:53 [http-nio-8082-exec-7] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 08:27:53 [http-nio-8082-exec-7] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved!
+2021-06-06 08:27:55 [http-nio-8082-exec-8] INFO  c.s.d.c.c.s.CarChargingSessionService - Get all charging entitties request is received.
+2021-06-06 16:48:52 [main] INFO  c.s.d.CarChargingSessionApplication - Application is starting..
+2021-06-06 16:48:53 [main] INFO  c.s.d.CarChargingSessionApplication - Starting CarChargingSessionApplication using Java 1.8.0_281 on Sertacs-MacBook-Pro.local with PID 40622 (/Users/sertacdemir/Desktop/code/workspace-spring-tool-suite/car-charging-session/target/classes started by sertacdemir in /Users/sertacdemir/Desktop/code/workspace-spring-tool-suite/car-charging-session)
+2021-06-06 16:48:53 [main] INFO  c.s.d.CarChargingSessionApplication - No active profile set, falling back to default profiles: default
+2021-06-06 16:48:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2021-06-06 16:48:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2021-06-06 16:48:55 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-06 16:48:55 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 16:48:55 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-06 16:48:55 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2074 ms
+2021-06-06 16:48:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2021-06-06 16:48:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2021-06-06 16:48:56 [main] INFO  c.s.d.CarChargingSessionApplication - Started CarChargingSessionApplication in 4.226 seconds (JVM running for 5.154)
+2021-06-06 16:48:56 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2021-06-06 16:48:56 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 16:48:59 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 16:48:59 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-06 16:48:59 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-06-06 16:48:59 [http-nio-8082-exec-1] INFO  c.s.d.c.c.s.CarChargingSessionService - Get all charging entitties request is received.
+2021-06-06 16:49:03 [http-nio-8082-exec-3] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:49:03 [http-nio-8082-exec-3] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: 98d596f5-bfd7-4acb-ad6d-6de9d226a496
+2021-06-06 16:49:06 [http-nio-8082-exec-4] INFO  c.s.d.c.c.s.CarChargingSessionService - Get all charging entitties request is received.
+2021-06-06 16:49:09 [http-nio-8082-exec-5] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:49:09 [http-nio-8082-exec-5] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: 700fab0b-d112-401d-8e48-221aa0f22907
+2021-06-06 16:49:17 [http-nio-8082-exec-6] INFO  c.s.d.c.c.s.CarChargingSessionService - Stop charging entity request is received.
+2021-06-06 16:49:17 [http-nio-8082-exec-6] INFO  c.s.d.c.c.s.CarChargingSessionService - Charging entity with id: 700fab0b-d112-401d-8e48-221aa0f22907 is stopped successfully!
+2021-06-06 16:49:20 [http-nio-8082-exec-7] INFO  c.s.d.c.c.s.CarChargingSessionService - Get all charging entitties request is received.
+2021-06-06 16:49:23 [http-nio-8082-exec-8] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:49:23 [http-nio-8082-exec-8] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: 31bffa8d-c8e4-4144-b450-a7565691b1e3
+2021-06-06 16:49:26 [http-nio-8082-exec-9] INFO  c.s.d.c.c.s.CarChargingSessionService - Retrieve summary request is received.
+2021-06-06 16:49:26 [http-nio-8082-exec-9] INFO  c.s.d.c.c.s.CarChargingSessionService - Summory of the charging session is calculated! 
+2021-06-06 16:54:46 [main] INFO  c.s.d.CarChargingSessionApplication - Application is starting..
+2021-06-06 16:54:47 [main] INFO  c.s.d.CarChargingSessionApplication - Starting CarChargingSessionApplication using Java 1.8.0_281 on Sertacs-MacBook-Pro.local with PID 40699 (/Users/sertacdemir/Desktop/code/workspace-spring-tool-suite/car-charging-session/target/classes started by sertacdemir in /Users/sertacdemir/Desktop/code/workspace-spring-tool-suite/car-charging-session)
+2021-06-06 16:54:47 [main] INFO  c.s.d.CarChargingSessionApplication - No active profile set, falling back to default profiles: default
+2021-06-06 16:54:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2021-06-06 16:54:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2021-06-06 16:54:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-06 16:54:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 16:54:49 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-06 16:54:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1716 ms
+2021-06-06 16:54:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2021-06-06 16:54:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2021-06-06 16:54:49 [main] INFO  c.s.d.CarChargingSessionApplication - Started CarChargingSessionApplication in 3.541 seconds (JVM running for 4.285)
+2021-06-06 16:54:49 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2021-06-06 16:54:49 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 16:55:07 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 16:55:07 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-06 16:55:07 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-06-06 16:55:07 [http-nio-8082-exec-1] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:55:07 [http-nio-8082-exec-1] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: 9199eba4-e2f9-477c-979c-d11c604cfd0c
+2021-06-06 16:55:08 [http-nio-8082-exec-3] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:55:08 [http-nio-8082-exec-3] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: ba564fef-981c-482a-9b1c-8977bf80e8d9
+2021-06-06 16:55:15 [http-nio-8082-exec-4] INFO  c.s.d.c.c.s.CarChargingSessionService - Stop charging entity request is received.
+2021-06-06 16:55:15 [http-nio-8082-exec-4] INFO  c.s.d.c.c.s.CarChargingSessionService - Charging entity with id: ba564fef-981c-482a-9b1c-8977bf80e8d9 is stopped successfully!
+2021-06-06 16:55:17 [http-nio-8082-exec-5] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:55:17 [http-nio-8082-exec-5] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: e94fd7a5-d56e-4f18-839f-755014bde558
+2021-06-06 16:55:18 [http-nio-8082-exec-6] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:55:18 [http-nio-8082-exec-6] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: 15b980cc-76a6-4473-92cf-b54989cd9577
+2021-06-06 16:55:18 [http-nio-8082-exec-7] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:55:18 [http-nio-8082-exec-7] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: 72a518eb-7b63-4abb-af91-e7725a8daf6e
+2021-06-06 16:55:18 [http-nio-8082-exec-8] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:55:18 [http-nio-8082-exec-8] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: 2040f1bc-f468-4730-97e1-1d8b693f193a
+2021-06-06 16:55:19 [http-nio-8082-exec-9] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:55:19 [http-nio-8082-exec-9] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: 6a09cd11-cdfd-421a-8cf2-5e0f1451cd8e
+2021-06-06 16:55:19 [http-nio-8082-exec-10] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:55:19 [http-nio-8082-exec-10] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: e68646c7-cfd0-4ebe-b015-7ea277cabb22
+2021-06-06 16:55:19 [http-nio-8082-exec-2] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:55:19 [http-nio-8082-exec-2] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: 118e4088-e6d1-4359-97ae-87331f40e38b
+2021-06-06 16:55:20 [http-nio-8082-exec-1] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:55:20 [http-nio-8082-exec-1] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: 05c6cef1-1554-4d6c-b6ad-967e8b26cfb2
+2021-06-06 16:55:21 [http-nio-8082-exec-3] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:55:21 [http-nio-8082-exec-3] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: d4a2edee-cade-4a31-9862-e002f060f301
+2021-06-06 16:55:21 [http-nio-8082-exec-4] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:55:21 [http-nio-8082-exec-4] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: 90adb501-e91b-4888-b811-126753f9b9e6
+2021-06-06 16:55:21 [http-nio-8082-exec-5] INFO  c.s.d.c.c.s.CarChargingSessionService - Add new charging entity request is received.
+2021-06-06 16:55:21 [http-nio-8082-exec-5] INFO  c.s.d.c.c.s.CarChargingSessionService - New charging entity is saved with id: 19aca1d0-291d-4eb2-a999-64c842eb32de
+2021-06-06 16:55:29 [http-nio-8082-exec-6] INFO  c.s.d.c.c.s.CarChargingSessionService - Stop charging entity request is received.
+2021-06-06 16:55:29 [http-nio-8082-exec-6] INFO  c.s.d.c.c.s.CarChargingSessionService - Charging entity with id: 19aca1d0-291d-4eb2-a999-64c842eb32de is stopped successfully!
+2021-06-06 16:55:32 [http-nio-8082-exec-7] INFO  c.s.d.c.c.s.CarChargingSessionService - Get all charging entitties request is received.
+2021-06-06 16:55:33 [http-nio-8082-exec-8] INFO  c.s.d.c.c.s.CarChargingSessionService - Get all charging entitties request is received.
+2021-06-06 16:55:33 [http-nio-8082-exec-9] INFO  c.s.d.c.c.s.CarChargingSessionService - Get all charging entitties request is received.
+2021-06-06 16:55:39 [http-nio-8082-exec-10] INFO  c.s.d.c.c.s.CarChargingSessionService - Retrieve summary request is received.
+2021-06-06 16:55:39 [http-nio-8082-exec-10] INFO  c.s.d.c.c.s.CarChargingSessionService - Summory of the charging session is calculated! 
+2021-06-06 16:55:40 [http-nio-8082-exec-2] INFO  c.s.d.c.c.s.CarChargingSessionService - Retrieve summary request is received.
+2021-06-06 16:55:40 [http-nio-8082-exec-2] INFO  c.s.d.c.c.s.CarChargingSessionService - Summory of the charging session is calculated! 
+2021-06-06 16:55:41 [http-nio-8082-exec-1] INFO  c.s.d.c.c.s.CarChargingSessionService - Retrieve summary request is received.
+2021-06-06 16:55:41 [http-nio-8082-exec-1] INFO  c.s.d.c.c.s.CarChargingSessionService - Summory of the charging session is calculated! 
